@@ -23,6 +23,11 @@ Before you get started, make sure you have the following:
 3. Set up your environment variables by creating a .env file and filling in the necessary API keys and configurations
 4. Run the bot using npm start
 
+### required .env variables
+- BOT_TOKEN
+- OPENAI_API_KEY
+
+**_NOTE:_**  The project relies on my personal [utility package](https://github.com/santiagoziel/service-utils) for managing environment variables in the configuration.ts file. This package is exclusively available via the GitHub registry. To install github registry npm packages, follow these  [instruccions](https://docs.github.com/en/enterprise-server@3.4/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) Alternatively, you can handle .env variables using your preferred method.
 
 ## Usage 💡
 After setting up the bot, you can interact with it using commands. Here are some examples:
