@@ -44,3 +44,7 @@ This project is open-source and free for anyone to use. However, if you'd like t
 
 Enjoy using SummaryBot and happy summarizing!
 
+#### PD
+I asked chatGPT to generate a midjourney promt based on what i explained the bot did and this is what came out
+
+<img src="https://media.discordapp.net/attachments/698660293554733086/1089388237107253268/summaryPF.png" alt="PF pic" width="300" />
