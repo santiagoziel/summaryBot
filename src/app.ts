@@ -4,6 +4,11 @@ import { botConfig } from "./config";
 
 const prefix = "!";
 
+/**
+ * processes incoming Discord messages, checks for valid bot commands,
+ * and delegates command execution to the CommandHandler class
+ * @param message  
+ */
 export const handleCommand = (message: Discord.Message) => {
   // Ignore messages from bots and without the command prefix
   if (message.author.bot || !message.content.startsWith(prefix)) return;

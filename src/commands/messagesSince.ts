@@ -3,6 +3,14 @@ import { OpenAIApi } from "openai";
 import axios from 'axios';
 import { modelConfiguration } from "../bot";
 
+/**
+ * Fetches messages from a channel since a given time and summarizes the conversation using GPT-3 or GPT-3.5 models
+ * @param message 
+ * @param args 
+ * @param openai 
+ * @param max_tokens 
+ * @param model 
+ */
 export const messagesSince = async (message: Message, args: string[], openai: OpenAIApi, max_tokens: number, model: modelConfiguration) => {
   // Parse and validate input time
   const inputTime = args[0];
